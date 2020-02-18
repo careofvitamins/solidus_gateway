@@ -1,5 +1,5 @@
 module Spree
-  class Gateway::BraintreeGateway < Gateway
+  class Gateway::BraintreeGateway < PaymentMethod
     preference :environment, :string
     preference :merchant_id, :string
     preference :merchant_account_id, :string
